@@ -4,7 +4,11 @@ function setup() {
 }
 
 function draw() {
-  fill(255, 127);
-  noStroke();
-  ellipse(width/2, height/2, 40, 40);
+  pushMatrix();
+    scale(.5);
+    fill(255, 127);
+    strokeWeight(3);
+    stroke(255);
+    ellipse(width/2, height/2, 40, 40);
+  popMatrix();
 }
