@@ -4,5 +4,7 @@ function setup() {
 }
 
 function draw() {
-  // put drawing code here
+  fill(255, 127);
+  noStroke();
+  ellipse(width/2, height/2, 40, 40);
 }
