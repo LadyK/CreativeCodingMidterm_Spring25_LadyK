@@ -1,6 +1,6 @@
 function setup() {
  createCanvas(windowWidth, windowHeight);
- background(255, 0, 0);
+ background(0);
 }
 
 function draw() {
@@ -11,4 +11,10 @@ function draw() {
     stroke(255);
     ellipse(width/2, height/2, 40, 40);
   popMatrix();
+  myFunction();
+
+}
+
+function myFunction(){
+  
 }
