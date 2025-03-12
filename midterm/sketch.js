@@ -1,9 +1,12 @@
+let i;
 function setup() {
  createCanvas(windowWidth, windowHeight);
  background(0);
+ i =0;
 }
 
 function draw() {
+  /*
   pushMatrix();
     scale(.5);
     fill(255, 127);
@@ -12,9 +15,13 @@ function draw() {
     ellipse(width/2, height/2, 40, 40);
   popMatrix();
   myFunction();
+  */
+  i++;
+  println(i);
+
 
 }
 
 function myFunction(){
-  
+
 }
